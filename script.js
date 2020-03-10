@@ -15,8 +15,8 @@ window.addEventListener('load', function() {
 
     uppercase = confirm("Would you like to use uppercase letters?");
     lowercase = confirm("Would you like to use lowercase letters?");
-    numbers = confirm("would you like to use numbers?");
-    symbols = confirm("would you like to use special characters?");
+    numbers = confirm("Would you like to use numbers?");
+    symbols = confirm("Would you like to use special characters?");
   }
 
   //DOM elements
@@ -39,7 +39,6 @@ window.addEventListener('load', function() {
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
-    alert('Password copied to clipboard');
   });
 });
 
