@@ -1,2 +1,2 @@
 # BTMelia-HW3
-This assignment is a Random Password Generator using Javascript. It is a conglomeration of multiple methods including the rando script link which helps with the randomization. Using variable prompts, the parameters for the password are personally set and then upon clicking the generate button, a password is created.
+This assignment is a Random Password Generator using Javascript. It is a conglomeration of multiple methods including the rando script link which helps with the randomization. Using variable prompts, the parameters for the password are personally set and then upon clicking the generate button, a password is created. This took me way longer than I thought it was.
