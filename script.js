@@ -19,7 +19,7 @@ window.addEventListener('load', function() {
     symbols = confirm("Would you like to use special characters?");
   }
 
-  //DOM elements
+  
   const resultEl = document.getElementById('password');
 
   document.getElementById('generate').addEventListener('click', () => {
@@ -63,7 +63,7 @@ function generatePassword(lower, upper, number, symbol, length) {
     symbol
   }].filter(item => Object.values(item)[0]);
 
-  // create a loop
+  
   for (let i = 0; i < length; i += typesCount) {
     typesArr.forEach(type => {
       const funcName = Object.keys(type)[0];
@@ -76,7 +76,7 @@ function generatePassword(lower, upper, number, symbol, length) {
   return finalPassword;
 }
 
-// Generator functions
+
 function getRandomLower() {
   return rando("qwertyuiopasdfghjklzxcvbnm")
 }
